@@ -14,8 +14,9 @@ public class Enemy_Aim : MonoBehaviour
 
         playerLayer = LayerMask.NameToLayer("Player");
         enemyLayer = LayerMask.NameToLayer("Enemy");
-        layerMask = (1 << LayerMask.NameToLayer("Wall")) + (1 << playerLayer) + (1 << enemyLayer);
-        
+        int wallLayer = LayerMask.NameToLayer("Wall");
+        layerMask = (1 << wallLayer) | (1 << playerLayer) | (1 << enemyLayer);
+
 
     }
 	

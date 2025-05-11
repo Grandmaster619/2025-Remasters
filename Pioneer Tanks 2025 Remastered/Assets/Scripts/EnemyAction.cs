@@ -78,7 +78,7 @@ public class EnemyAction : MonoBehaviour
             {
                 GetComponent<EnemyMovement>().PauseToShoot = false;
             }
-            float thingy = 0.075f;
+            float thingy = 0.15f;
             Vector3 aimVector = new Vector3(Mathf.Cos(turretAngleTrig(turret.transform.eulerAngles.y) * Mathf.Deg2Rad), 0f, Mathf.Sin(turretAngleTrig(turret.transform.eulerAngles.y) * Mathf.Deg2Rad));
             Vector3 pos1 = new Vector3(turret.transform.position.x + thingy, transform.position.y + 0.25f, turret.transform.position.z);
             Vector3 pos2 = new Vector3(turret.transform.position.x - thingy, transform.position.y + 0.25f, turret.transform.position.z);

@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9c34b264be18424e917236a2fc3a0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.8
   treadDropInterval: 0.11
   treadSpawner: {fileID: 431978905767040833}
   treadmarkPrefab: {fileID: 5002511317935567291, guid: 7fca7bc68316cf0418d6b3293aa44512,

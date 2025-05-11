@@ -95,6 +95,8 @@ MonoBehaviour:
   hh: 0
   vv: 0
   objectRotation: 0
+  stopMovementH: 0
+  stopMovementV: 0
 --- !u!114 &6087596834925818674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +131,7 @@ MonoBehaviour:
   attackTimerCD: 0.5
   maxBulletStorage: 3
   reloadTimerCD: 1
-  bulletSpeed: 12
+  bulletSpeed: 14
   effect: {fileID: 1524979352910776, guid: 63ab1b7727abea74296887e444e8591a, type: 3}
   particleEmissionPoint: {fileID: 3115285434529356244}
   turretRotationSpeed: 0.75

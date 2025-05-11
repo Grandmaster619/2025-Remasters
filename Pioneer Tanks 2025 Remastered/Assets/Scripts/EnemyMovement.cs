@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public enum Behavior
@@ -47,6 +46,8 @@ public class EnemyMovement : MonoBehaviour
     public float objectRotation;
     public bool stopMovementH = false;
     public bool stopMovementV = false;
+
+    private Vector3 repulsion;
 
 
     private void Awake()
@@ -269,8 +270,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void DetermineMovementDirection()
     {
-        RaycastHit upRay, downRay, leftRay, rightRay;
-        float rayDistance = 1f;
+        
 
         RaycastHit playerVisible;
         Vector3 playerDirection = player.transform.position - transform.position;
@@ -352,15 +352,41 @@ public class EnemyMovement : MonoBehaviour
 
 
 
-        if (checkTimer >= 1f)
+        if (checkTimer >= 0.75f)
         {
-            checkTimer = 0;
+            checkTimer = 0f;
+
+            repulsion = Vector3.zero;
+            float detectionRadius = 4f;
+
+            Collider[] nearbyObjects = Physics.OverlapSphere(transform.position, detectionRadius);
+            foreach (Collider collider in nearbyObjects)
+            {
+                if (collider.CompareTag("Mine") || collider.CompareTag("Bullet"))
+                {
+                    Debug.Log("Threat detected");
+                    backAwayTimer = 0;
+                    Vector3 awayFromThreat = transform.position - collider.transform.position;
+                    awayFromThreat.y = 0; // Stay on horizontal plane
+                    float distance = awayFromThreat.magnitude;
+
+                    // Weight the repulsion based on how close the threat is
+                    if (distance > 0.01f)
+                    {
+                        repulsion += awayFromThreat.normalized / distance;
+                    }
+
+                    // Optional: visualize direction
+                    Debug.DrawLine(transform.position, collider.transform.position, Color.red, 0.75f);
+                }
+            }
+
             Collider[] objectsClose = Physics.OverlapSphere(transform.position, 1.75f);
             foreach (Collider collider in objectsClose)
             {
                 if (collider.CompareTag("Destructible") || collider.CompareTag("Player"))
                 {
-                    if (curMines > 0 && mineTimer >= 2f)
+                    if (curMines > 0 && mineTimer >= 8f && repulsion == Vector3.zero)
                     {
                         mineTimer = 0;
                         curMines--;
@@ -369,70 +395,81 @@ public class EnemyMovement : MonoBehaviour
                 }
             }
 
-            Collider[] objectsClose1 = Physics.OverlapSphere(transform.position, 3f);
-            foreach (Collider collider in objectsClose1)
-            {
-                if (collider.CompareTag("Mine"))
-                {
-                    Debug.Log("next to a mine");
-                    backAwayTimer = 0;
-
-                }
-            }
         }
+
 
         if (backAwayTimer <= 2f)
         {
-            Collider[] objectsClose1 = Physics.OverlapSphere(transform.position, 3f);
-            foreach (Collider collider in objectsClose1)
+            // Decide on movement if any repulsion was calculated
+            if (repulsion != Vector3.zero)
             {
-                if (collider.CompareTag("Mine"))
-                {
-                    if (collider.transform.position.y > transform.position.y)
-                        v = -1;
-                    else
-                        v = 1;
 
+                // Convert repulsion to h and v
+                float dotRight = Vector3.Dot(repulsion, Vector3.right);     // x-axis
+                float dotForward = Vector3.Dot(repulsion, Vector3.forward); // z-axis
 
-                    if (collider.transform.position.x > transform.position.x)
-                        h = -1;
-                    else
-                        h = 1;
-                }
+                h = Mathf.Abs(dotRight) > 0.2f ? (dotRight > 0 ? 1 : -1) : 0;
+                v = Mathf.Abs(dotForward) > 0.2f ? (dotForward > 0 ? 1 : -1) : 0;
+
+                // Optional: visualize direction of escape
+                Debug.DrawRay(transform.position, new Vector3(h, 0, v) * 2f, Color.green, 0.75f);
             }
-
-
         }
 
-        if ((Physics.Raycast(transform.position, new Vector3(0, 0, 1), out upRay, rayDistance) ||
-    Physics.Raycast(transform.position, new Vector3(0.707f, 0, 0.707f), out upRay, rayDistance * 0.5f) ||
-    Physics.Raycast(transform.position, new Vector3(-0.707f, 0, 0.707f), out upRay, rayDistance * 0.5f)))
+        FindWalls(out bool WallUp, out bool WallDown, out bool WallLeft, out bool WallRight);
+        if (WallUp && v == 1)
         {
-            if (v == 1)
                 v = 0;
+        }
+        if (WallDown && v == -1)
+        {
+                v = 0;
+        }
+        if (WallRight && h == 1)
+        {
+                h = 0;
+        }
+        if (WallLeft && h == -1)
+        {
+                h = 0;
+        }
+
+    }
+
+    private void FindWalls(out bool WallUp, out bool WallDown, out bool WallLeft, out bool WallRight)
+    {
+        RaycastHit upRay, downRay, leftRay, rightRay;
+        float rayDistance = 1f;
+
+        WallUp = false;
+        WallDown = false;
+        WallLeft = false;
+        WallRight = false;
+
+        if ((Physics.Raycast(transform.position, new Vector3(0, 0, 1), out upRay, rayDistance) ||
+           Physics.Raycast(transform.position, new Vector3(0.707f, 0, 0.707f), out upRay, rayDistance * 0.5f) ||
+           Physics.Raycast(transform.position, new Vector3(-0.707f, 0, 0.707f), out upRay, rayDistance * 0.5f)))
+        {
+            WallUp = true;
         }
         if ((Physics.Raycast(transform.position, new Vector3(0, 0, -1), out downRay, rayDistance) ||
             Physics.Raycast(transform.position, new Vector3(0.707f, 0, -0.707f), out downRay, rayDistance * 0.5f) ||
             Physics.Raycast(transform.position, new Vector3(-0.707f, 0, -0.707f), out downRay, rayDistance * 0.5f)))
         {
-            if (v == -1)
-                v = 0;
+            WallDown = true;
         }
         if ((Physics.Raycast(transform.position, new Vector3(1, 0, 0), out rightRay, rayDistance) ||
             Physics.Raycast(transform.position, new Vector3(0.707f, 0, 0.707f), out rightRay, rayDistance) ||
             Physics.Raycast(transform.position, new Vector3(0.707f, 0, -0.707f), out rightRay, rayDistance)))
         {
-            if (h == 1)
-                h = 0;
+            WallRight = true;
         }
         if ((Physics.Raycast(transform.position, new Vector3(-1, 0, 0), out leftRay, rayDistance) ||
             Physics.Raycast(transform.position, new Vector3(-0.707f, 0, 0.707f), out leftRay, rayDistance) ||
             Physics.Raycast(transform.position, new Vector3(-0.707f, 0, -0.707f), out leftRay, rayDistance)))
         {
-            if (h == -1)
-                h = 0;
+            WallLeft = true;
         }
-
     }
 
     private int findWayAround(string blockDirection, int posNeg)

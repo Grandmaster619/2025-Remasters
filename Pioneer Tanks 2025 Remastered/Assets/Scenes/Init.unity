@@ -190,6 +190,7 @@ MonoBehaviour:
   cursor: {fileID: 2800000, guid: 41d15dce59c4e84448fdb13685c87a41, type: 3}
   PAUSED: 0
   musicToggle: 1
+  StartingScene: 0
 --- !u!1001 &1698886089
 PrefabInstance:
   m_ObjectHideFlags: 0

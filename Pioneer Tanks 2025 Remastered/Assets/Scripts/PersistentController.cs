@@ -13,8 +13,10 @@ public class PersistentController : MonoBehaviour
     private Scene curScene;
     private int curLevel = -1;
     public int CurLevel { get => curLevel; set => curLevel = value; }
-    private int curLives = 5;
+    private int curLives = 6;
     public int CurLives { get => curLives; set => curLives = value; }
+
+    public int StartingScene = 0;
 
     private Dictionary<TankType, int> tanksKilled = new Dictionary<TankType, int>()
     {
@@ -191,7 +193,7 @@ public class PersistentController : MonoBehaviour
         ResetTankKills();
         curLevel = 0;
         curLives = 5;
-        LoadPlayScene(0);
+        LoadPlayScene(StartingScene);
     }
 
     public void ToEndScreen()
