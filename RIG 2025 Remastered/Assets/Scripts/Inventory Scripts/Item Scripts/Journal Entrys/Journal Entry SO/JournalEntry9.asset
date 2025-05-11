@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ba8c25f91d3674cb1ba3bc5d4ea2f7, type: 3}
+  m_Name: JournalEntry9
+  m_EditorClassIdentifier: 
+  itemName: Journal Entry 9
+  description: A journal entry found on the rig.
+  itemImage: {fileID: 21300000, guid: 1b8f9c34a1404cd468f8061fa5d6d0bf, type: 3}
+  itemType: 2
+  journalEntry: "Day 103: Shared lunch with Jackie, Avery, and Adrian today. Somehow
+    their lunches all got stuck in the bad cabinet, n\u2019 they all got ripped apart.
+    Those rats are getting worse, they tracked oil all through the lunches. One was
+    even in a bag I heard, it looked drenched in oil. Heard its eyes were all messed
+    up too, but I dunno if that was someone\u2019s imagination"

@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: c0aa91e86a3c3c74eb5cb6c835a9ae4d
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -5979681950187949870
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -8521101567703805253
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 6471995027986741390
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: -5502563331289201682
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: -4924752811077578650
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: -8616560489367310304
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: -2835283912949033021
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: -5583041596126702247
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: 7188780567639398328
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -9204259920616980826
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -7960265825345036711
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: -5441669405334367376
+    second: Keypad v3_Keypad v3_X Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: 6970720255163035474
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -2761402844624221397
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 3654833944819891833
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 8452555018873435552
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: -8581920435045663714
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: -2004917651930422776
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: -7171840669856262792
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: 2625861334198136870
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: 597480195119365096
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: 2061275037713658722
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: 7692259216123833304
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: 7596473407228595823
+    second: Keypad v3_Keypad v3_Check Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: 2385503810456308065
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: 1682693631052127498
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: -486708941525199815
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 7733366652113127508
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 2256329677540047998
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 5244377692003528920
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 3040643409362351238
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: -7269526297154205280
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: 3962648293459784353
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: 2512717256724324619
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -5648963255150849006
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: -7335703291527460120
+    second: Keypad v3_Keypad v3_9 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: -371641245841881973
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -7886205492496544480
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 7177886114876188770
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: -6163764663651652640
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: -5327104012786878155
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 146982434598587106
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: -1330149682555864981
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: 4906582140178993082
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: -2663098638658546335
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -7980276159993289684
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -5712361179315807368
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: 1199356052255664792
+    second: Keypad v3_Keypad v3_8 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: 7007466196470274037
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -9184149387948362307
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 9012778754011833952
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 3849550325417692150
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 8711196927377330703
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 4872523219918109766
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 4823267838158713906
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: -2443843519169063474
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: -3696735275153812141
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -781501819325528290
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -6002228701415875808
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: -4164226441621407753
+    second: Keypad v3_Keypad v3_7 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: 6027691105039636642
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -441605103328345012
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: -7668712891693394139
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 1854648533959373276
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 8101079662830244992
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 1674014495728972572
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: -8685108576960956472
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: -2204585192975224468
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: 6057763139465091565
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: 5022998650753085291
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: 7004931913491595556
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: -1591739461508714031
+    second: Keypad v3_Keypad v3_6 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: -4916394966437984981
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -5211512084840191088
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 5929624378166013580
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: -4068134951116904564
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: -6143184146670060438
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 8635128179126954126
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: -6539302547425709184
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: -4229965393531278946
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: 7919034322464518970
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -5366834548084316991
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -859473982532440141
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: 8906818499255897690
+    second: Keypad v3_Keypad v3_5 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: 2086044804229351609
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: 1361130751905495523
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 1491326039544275809
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: -1301780718727583815
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 2496978265228641228
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 7958042838632115304
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 1801052557184404805
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: 31002246782541251
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: -694827523893410401
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -1387281919398545949
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: 8144161929240339143
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: 6188753559146100113
+    second: Keypad v3_Keypad v3_4 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: -7866678992821928362
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: 5295732614335240277
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 8424182616791669949
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: -5805996840829260092
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 706365153035965005
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 3634712706643323180
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 1139138744846200450
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: 6072388000681209329
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: 8754484742301670493
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: 8272617609507236796
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: 1131191569535043983
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: 6337073918717073487
+    second: Keypad v3_Keypad v3_3 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: -1852184744007321918
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -7937030042849294628
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: -4281616937380761643
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 3921066067187419800
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 4066975154257327275
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 4005723607180198322
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 6657964405941975686
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: 893839044927736608
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: -1460104066425441629
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: 7909964593007334375
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -6002500044614306256
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: -3422261557545340824
+    second: Keypad v3_Keypad v3_2 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: -2656392777291229231
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -5509855875382634815
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 4405597511637946234
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 7194630316330385298
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 3102900801344665221
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: 6710024401498775172
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 5655543223305576783
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: -7067720819506398853
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: -6533999322354566435
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -4318558503129185593
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: 6017642693295825853
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: 1531498380442159080
+    second: Keypad v3_Keypad v3_1 Button|Keypad v3_Keypad v3_X ButtonAction
+  - first:
+      74: -6512159573183095896
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_0 ButtonAction
+  - first:
+      74: -6891387850318125598
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_1 ButtonAction
+  - first:
+      74: 9205365839663051014
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_2 ButtonAction
+  - first:
+      74: 7252789632879581568
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_3 ButtonAction
+  - first:
+      74: 7399204642586676813
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_4 ButtonAction
+  - first:
+      74: -3839192055975546197
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_5 ButtonAction
+  - first:
+      74: 2918090029345636885
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_6 ButtonAction
+  - first:
+      74: 8907395413128824875
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_7 ButtonAction
+  - first:
+      74: -538097053781655636
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_8 ButtonAction
+  - first:
+      74: -1337129045110978315
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_9 ButtonAction
+  - first:
+      74: -3243666635543041528
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_Check ButtonAction
+  - first:
+      74: -8378923993311897488
+    second: Keypad v3_Keypad v3_0 Button|Keypad v3_Keypad v3_X ButtonAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

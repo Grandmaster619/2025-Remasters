@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ba8c25f91d3674cb1ba3bc5d4ea2f7, type: 3}
+  m_Name: JournalEntry8
+  m_EditorClassIdentifier: 
+  itemName: Journal Entry 8
+  description: A journal entry found on the rig.
+  itemImage: {fileID: 21300000, guid: 1b8f9c34a1404cd468f8061fa5d6d0bf, type: 3}
+  itemType: 2
+  journalEntry: "Day 97: Avery and Adrian have been gettin\u2019 on really good,
+    I swear that\u2019s the only reason that kid hasn\u2019t spiraled yet. Think
+    the only reason I haven\u2019t spiraled is cuz of Alex and Jackie. Well, just
+    Jackie now. Lord knows we all need that, \u2018specially with everything goin
+    nuts. Swear I saw some long, black tentacle knocking on the window today, but
+    the Chief said it\u2019s just a lamprey. Somehow that makes me feel worse, didn\u2019t
+    know lamprey could get that big\r\n"

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ba8c25f91d3674cb1ba3bc5d4ea2f7, type: 3}
+  m_Name: JournalEntry3
+  m_EditorClassIdentifier: 
+  itemName: Journal Entry 3
+  description: A journal entry found on the rig.
+  itemImage: {fileID: 21300000, guid: 1b8f9c34a1404cd468f8061fa5d6d0bf, type: 3}
+  itemType: 2
+  journalEntry: "Day 79: Chief is gone. No one said why, but it\u2019s probably cuz
+    of Alex. New guy\u2019s no better though, maybe even worse. Heard some whispers
+    that he wants to stick cameras in every room so next time something like that
+    happens he\u2019ll see it before it goes down. I think he just wants a way to
+    make sure we\u2019re not doin\u2019 anything that\u2019ll slow down production. "

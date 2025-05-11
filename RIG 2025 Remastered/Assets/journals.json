@@ -1,0 +1,34 @@
+{
+   "journals":[
+      {
+         "id": 0,
+         "entryName": "Sample Entry",
+         "description": "This is a sample journal entry. Replace this with your actual content.",
+         "collected":false
+      },
+      {
+         "id": 1,
+         "entryName": "Sample Entry 2",
+         "description": "This is a sample journal entry. Replace this with your actual content. 2",
+         "collected":false
+      },
+      {
+         "id": 2,
+         "entryName": "Sample Entry 3",
+         "description": "This is a sample journal entry. Replace this with your actual content. 3",
+         "collected":false
+      },
+      {
+         "id": 3,
+         "entryName": "Sample Entry 4",
+         "description": "This is a sample journal entry. Replace this with your actual content. 4",
+         "collected":false
+      },
+      {
+         "id": 4,
+         "entryName": "Sample Entry 5",
+         "description": "This is a sample journal entry. Replace this with your actual content. 5",
+         "collected":false
+      }
+   ]
+}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ba8c25f91d3674cb1ba3bc5d4ea2f7, type: 3}
+  m_Name: JournalEntry1
+  m_EditorClassIdentifier: 
+  itemName: Journal Entry 1
+  description: A journal entry found on the rig.
+  itemImage: {fileID: 21300000, guid: 1b8f9c34a1404cd468f8061fa5d6d0bf, type: 3}
+  itemType: 2
+  journalEntry: "Day 17: Was asked to repair one o\u2019 the boats today. Dunno why,
+    I\u2019ve been here a couple weeks and haven\u2019t seem \u2018em get used once.
+    Does no one go home here? \u2018S a bit weird. Alex seemed chipper today, but
+    not really, like fakin\u2019 it if that makes sense. Everybody in the carbon
+    seemed ta brighten a little bit cuz of it though. Asked about it durin\u2019
+    lunch and Alex said that none o\u2019 the bosses \u2018round here care about
+    us so someone\u2019s gotta pick up the mood. Makes sense I guess."
