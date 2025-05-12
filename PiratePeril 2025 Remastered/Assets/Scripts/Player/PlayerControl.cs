@@ -104,7 +104,9 @@ public class PlayerControl : MonoBehaviour
             facingRight = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.W) && (onGround || (numJumps > 0 && numJumps < maxJumps && maxJumps > 1)) && timeSinceJump >= jumpCD && !jump)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space)) && 
+            (onGround || (numJumps > 0 && numJumps < maxJumps && maxJumps > 1)) && 
+            timeSinceJump >= jumpCD && !jump)
         {
             anim.SetBool("jumping", true);
             jumpSound.PlayOneShot(jumpSound.clip);

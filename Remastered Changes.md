@@ -34,3 +34,7 @@
 # Fixed a critical bug where if the ship collided with enemy ships with a shield activated they would be pushed out of the environment and be softlocked
 # Doubled the initial speed of all bullets to increase the pace of the game
 # Added a highscore indicator on the top of the screen
+
+# Pirate Peril
+# Fixed unused movement tutorial sign and added a few more tutorial signs.
+# Changed controls so that Space could be pressed to jump
