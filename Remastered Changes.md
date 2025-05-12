@@ -38,3 +38,4 @@
 # Pirate Peril
 # Fixed unused movement tutorial sign and added a few more tutorial signs.
 # Changed controls so that Space could be pressed to jump
+# Removed options button from Pause Menu (there weren't any options)
