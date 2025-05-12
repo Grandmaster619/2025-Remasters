@@ -8,6 +8,8 @@ public class GameManagerScene2 : MonoBehaviour
 
     private bool isDrillControlPanelActive;
 
+    private bool gasCanFilled;
+
     private void Awake()
     {
         if (instance == null)
@@ -23,7 +25,10 @@ public class GameManagerScene2 : MonoBehaviour
 
     public void ActivateDrillControlPanel() { isDrillControlPanelActive = true; }
 
+    public void PlayerFilledGasCan() { gasCanFilled = true; }
+
     public bool IsDrillControlPanelActive() { return isDrillControlPanelActive; }
 
+    public bool IsGasCanFilled() {  return gasCanFilled; }
     public static GameManagerScene2 GetInstance() { return instance; }
 }

@@ -73,5 +73,16 @@ public class PlayerInventory : MonoBehaviour
         return false;
     }
 
+    public int ContainsAmount(ItemSO itemSO)
+    {
+        for (int i = 0; i < inventoryEntryList.Count; i++)
+        {
+            if (inventoryEntryList[i].GetItemSO().GetItemName().Equals(itemSO.GetItemName()))
+                return inventoryEntryList[i].GetAmount();
+        }
+
+        return 0;
+    }
+
     public List<InventoryEntry> GetInventoryEntryList() { return inventoryEntryList; }
 }

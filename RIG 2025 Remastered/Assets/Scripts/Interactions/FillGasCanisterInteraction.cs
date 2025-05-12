@@ -15,7 +15,7 @@ public class FillGasCanisterInteraction : Interactable
         if (inventory.Contains(shorthand) && GameManagerScene2.GetInstance().IsDrillControlPanelActive()) {
             inventory.RemoveItem(shorthand);
             inventory.AddItem(SODatabase.GetInstance().GetItemByName("Filled Gas Can"), 1);
-            promptMessage = "Gas can filled!";
+            GameManagerScene2.GetInstance().PlayerFilledGasCan();
             Instantiate(MainSoundtrackAudioPrefab);
         }
     }
@@ -34,5 +34,12 @@ public class FillGasCanisterInteraction : Interactable
         }
 
         promptMessage = "Press 'E' To Fill Gas Can";
+
+        while (!GameManagerScene2.GetInstance().IsGasCanFilled())
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        promptMessage = "Gas can filled!";
     }
 }

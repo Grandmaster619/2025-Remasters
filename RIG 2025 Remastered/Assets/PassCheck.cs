@@ -9,6 +9,7 @@ public class PassCheck : MonoBehaviour
     public TextMeshProUGUI textMeshPro;
     private int currentIndex = 0;
     public Animator animator;
+    public bool OpenedOnce = false;
 
     public EventHandler<EventArgs> OnKeycodeCorrect;
 
@@ -51,14 +52,15 @@ public class PassCheck : MonoBehaviour
     {
         Debug.Log("Checking...");
         if (new string(characterArray) == "11370")
-            {
-                animator.SetBool("IsOpen", true);
-                textMeshPro.text = "OK";
-                OnKeycodeCorrect.Invoke(this, new EventArgs());
+        {
+            animator.SetBool("IsOpen", true);
+            textMeshPro.text = "OK";
+            OnKeycodeCorrect.Invoke(this, new EventArgs());
+            OpenedOnce = true;
         }
         else
-            {
-                textMeshPro.text = "ERROR";
-            }
+        {
+            textMeshPro.text = "ERROR";
+        }
     }
 }
