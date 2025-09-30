@@ -249,6 +249,19 @@ public class PersistentControl : MonoBehaviour
             DisplayMenuElement(0);
     }
 
+    public void ToGameWin()
+    {
+        playerScore = 0;
+        if (SceneManager.GetActiveScene().name != "GameWin")
+        {
+            UnPauseGame();
+            Cursor.visible = true;
+            LoadScene("GameWin");
+        }
+        else
+            DisplayMenuElement(0);
+    }
+
     /// <summary>
     /// Displays the desired menu in the menu children. Used for accessing options, tutorial, and main menu.
     /// </summary>

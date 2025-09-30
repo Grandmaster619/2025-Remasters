@@ -137,6 +137,10 @@ public class PlayerControl : MonoBehaviour
             numJumps = maxJumps;
             anim.SetBool("jumping", false);
         }
+        else if (collision.gameObject.CompareTag("GameWinRock"))
+        {
+            persistentObject.ToGameWin();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
